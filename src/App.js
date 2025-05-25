@@ -9,9 +9,15 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link> | 
-        <Link to="/events">Events</Link> | 
-        <Link to="/team">Meet the Team</Link>
+        <div className="left-links">
+          <Link to="/">Home</Link>  
+          <Link to="/events">Events</Link>
+        </div>
+        <Link to="/" className="title">
+          <span className="nav-title">AUCISA</span>
+          <span className="nav-title-description">Auckland University Cook Island Student Association</span>
+        </Link>
+        <Link className="meet-the-team" to="/team">Meet the Team</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

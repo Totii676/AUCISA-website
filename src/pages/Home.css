@@ -1,0 +1,36 @@
+.hero-section {
+  background-image: url('/public/aucisa logo.png');
+  background-size: contain;                 /* ✅ Show the whole image */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: scroll;            or remove this */
+  height: 100vh;                            /* ✅ Fit to one screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+  margin-bottom: -10%;
+}
+
+.intro {
+    display: flex;
+    background-color: #2C5545;
+    opacity: 98%;
+    flex-direction: column;
+    gap: 20%;
+    margin-top: -10%;
+    border-radius: 10px;
+}
+
+.intro-text {
+    font-size: 150%;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 4rem; 
+    line-height: 1.6;
+    margin-left: 5%;
+    margin-right: 5%;
+}
