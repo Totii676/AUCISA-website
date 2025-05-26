@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aucisa-website/static/css/main.663b2566.css",
+    "main.css": "/aucisa-website/static/css/main.e6eb01ec.css",
     "main.js": "/aucisa-website/static/js/main.d94f8bf7.js",
     "static/media/aucisa logo.png": "/aucisa-website/static/media/aucisa logo.a058cf56d0e78d0ab163.png",
     "index.html": "/aucisa-website/index.html",
-    "main.663b2566.css.map": "/aucisa-website/static/css/main.663b2566.css.map",
+    "main.e6eb01ec.css.map": "/aucisa-website/static/css/main.e6eb01ec.css.map",
     "main.d94f8bf7.js.map": "/aucisa-website/static/js/main.d94f8bf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.663b2566.css",
+    "static/css/main.e6eb01ec.css",
     "static/js/main.d94f8bf7.js"
   ]
 }
