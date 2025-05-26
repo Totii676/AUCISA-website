@@ -2,7 +2,7 @@ import React from 'react';
 import "./Home.css";
 
 function Home() {
-  return <div class="hero-section">
+  return <div className="hero-section">
         <div className="intro">
             <span className="intro-text">
                 <p className="text">Turou! Aere mai! Kia orana!</p>

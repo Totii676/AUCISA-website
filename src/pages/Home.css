@@ -1,36 +1,65 @@
+/* ============================= */
+/* Base Styles (Desktop first)  */
+/* ============================= */
+
 .hero-section {
   background-image: url('/public/aucisa logo.png');
-  background-size: contain;                 /* ✅ Show the whole image */
+  background-size: contain;           
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: scroll;            or remove this */
-  height: 100vh;                            /* ✅ Fit to one screen height */
+  height: 100vh;                       
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
   color: white;
-  margin-bottom: -10%;
+  margin-bottom: -10%; /* consider removing or reducing this */
 }
 
 .intro {
-    display: flex;
-    background-color: #2C5545;
-    opacity: 98%;
-    flex-direction: column;
-    gap: 20%;
-    margin-top: -10%;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;                         
+  margin-top: -4rem;                 
+  padding: 2rem;
+  background-color: rgba(44, 85, 69, 0.98); 
+  border-radius: 10px;
 }
 
 .intro-text {
-    font-size: 150%;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .text {
-    margin-bottom: 4rem; 
-    line-height: 1.6;
-    margin-left: 5%;
-    margin-right: 5%;
+  margin: 0 1rem 4rem;
+  line-height: 1.6;
+}
+
+/* ============================= */
+/* Mobile Adjustments (<768px)   */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .hero-section {
+    background-size: cover;
+    padding: 1rem;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .intro {
+    margin-top: 1rem;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .intro-text {
+    font-size: 1.25rem;
+  }
+
+  .text {
+    margin: 0 0.5rem 3rem;
+    line-height: 1.5;
+  }
 }

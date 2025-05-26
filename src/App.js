@@ -17,7 +17,9 @@ function App() {
           <span className="nav-title">AUCISA</span>
           <span className="nav-title-description">Auckland University Cook Island Student Association</span>
         </Link>
-        <Link className="meet-the-team" to="/team">Meet the Team</Link>
+        <div className="meet-the-team">
+          <Link to="/team">Meet the Team</Link>
+        </div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
